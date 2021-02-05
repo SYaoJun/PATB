@@ -16,8 +16,10 @@ int main(){
 	int n, x, y, score;
 	int ans_x, ans_score = 0;
 	unordered_map<int, int > hash;
+	scanf("%d", &n);
 	for(int i = 0; i < n; i++){
 		scanf("%d-%d %d", &x, &y, &score);
+		
 		hash[x] +=score;
 		if(hash[x] > ans_score){
 			ans_score = hash[x];
