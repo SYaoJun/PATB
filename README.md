@@ -8,6 +8,7 @@
 - PAT 1031【C++】
 - PAT 1038【C++】
 - PAT 1047【C++】【Python】【Java】
+- PAT 1059【C++】
 
 #### 注意
 
